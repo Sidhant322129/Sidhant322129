@@ -1,0 +1,78 @@
+#include<sys/types.h>
+#include<sys/socket.h>
+#include<netinet/in.h>
+#include<arpa/inet.h>
+#include<string.h>
+#include<stdlib.h>
+#include<stdio.h>
+struct sockaddr_in serv_addr;       
+int skfd, r, w;
+unsigned short serv_port = 25055;
+char serv_ip[] = "127.0.0.1";
+char rbuff[128];
+char sbuff[128];
+int main() {
+	bzero(&serv_addr, sizeof(serv_addr));
+        serv_addr.sin_family = AF_INET; /*address family*/
+        serv_addr.sin_port = htons(serv_port); /*port number*/
+        inet_aton(serv_ip, (&serv_addr.sin_addr)); /*IP-address*/
+	printf("\nTCP SCIENTIFIC CALCULATOR CLIENT.\n");
+	while(1) {
+		if((skfd = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
+		        printf("\nCLIENT ERROR: Cannot create socket.\n");
+		        exit(1);
+		}
+		if((connect(skfd, (struct sockaddr*)&serv_addr, sizeof(serv_addr))) < 0) {
+			printf("\nCLIENT ERROR: Cannot connect to the server.\n");
+			close(skfd);
+			exit(1);
+		}
+		printf("waiting for server...");
+		read(skfd,rbuff,128);
+		if(strcmp(sbuff,"exit")==0) {
+			printf("Server Kicked You!");
+			close(skfd);
+			exit(0);
+		}
+		printf("\nCLIENT: Connected to the server.\n");
+		int ch1;
+		printf("1. Calculate\n2.exit");
+		scanf("%d",&ch1);
+		getchar();
+		if(ch1==2) {
+			strcpy(sbuff,"exit");
+			write(skfd,sbuff,strlen(sbuff));
+			exit(0);
+		}
+		strcpy(sbuff,"continue");
+		write(skfd,sbuff,strlen(sbuff));
+		printf("Enter the expression");
+		bzero(sbuff,128);
+		fgets(sbuff,128,stdin);
+		
+		if((w = write(skfd, sbuff, 128)) < 0) {
+			printf("\nCLIENT ERROR: Cannot send message to the echo server.\n");
+			close(skfd);
+			exit(1);
+		}
+		printf("\nCLIENT: Message sent to server.\n");
+		if((r = read(skfd, rbuff, 128)) < 0)
+			printf("\nCLIENT ERROR: Cannot receive mesage from server.\n");
+		else {
+			rbuff[r] = '\0';
+
+			printf("\nCLIENT: Message from echo server: %s\n", rbuff);
+
+		}
+		printf("Waiting for server...");
+		bzero(sbuff,128);
+		read(skfd,sbuff,128);
+		if(strcmp(sbuff,"shut")==0) {
+			printf("Server shut down\n");
+			break;
+		}
+		bzero(rbuff,128);
+	}
+	close(skfd);
+	exit(1);
+}
