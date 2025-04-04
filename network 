@@ -1,0 +1,112 @@
+#include<sys/socket.h>
+#include<sys/types.h>
+#include<netinet/in.h>
+#include<arpa/inet.h>
+#include<string.h>
+#include<stdio.h>
+#include<stdlib.h>
+struct sockaddr_in serv_addr, cli_addr;
+int listenfd, connfd, r, w, val, cli_addr_len;
+unsigned short serv_port = 25055;
+char serv_ip[] = "127.0.0.1";
+char buff[128];
+int main() {
+        bzero(&serv_addr, sizeof(serv_addr));                                                                                                                
+        serv_addr.sin_family = AF_INET;
+        serv_addr.sin_port = htons(serv_port)
+        inet_aton(serv_ip, (&serv_addr.sin_addr));
+	printf("\nTCP SCIENTIFIC CALCULATOR SERVER.\n");                                                           
+        if((listenfd = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
+                printf("\nSERVER ERROR: Cannot create socket.\n");
+                exit(1);
+        }
+        if((bind(listenfd, (struct sockaddr*)&serv_addr, sizeof(serv_addr))) < 0) {
+                printf("\nSERVER ERROR: Cannot bind.\n");
+                close(listenfd);
+                exit(1);
+        }
+	if((listen(listenfd, 5)) < 0) {
+		printf("\nSERVER ERROR: Cannot listen.\n");
+                close(listenfd);
+                exit(1);
+	}
+	cli_addr_len = sizeof(cli_addr);
+	int b = 0;
+	char ch1;
+	for( ; ;) {
+		if(b==0)
+			printf("\nSERVER: Listenning for clients...Press Cntrl + c to stop echo server:\n");
+		else
+			printf("\nWaiting for client...\n");
+		if((connfd = accept(listenfd, (struct sockaddr*)&cli_addr, &cli_addr_len)) < 0 && b==1) {
+			printf("\nSERVER ERROR: Cannot accept client connections.\n");
+			close(listenfd);
+			exit(1);
+		}
+		printf("\nSERVER: Connection fron client %s incoming.Accept (y/n)?\n", inet_ntoa(cli_addr.sin_addr));
+		scanf("%c",&ch1);
+		getchar();
+		if(ch1=='n' || ch1=='N') {
+			printf("Kicking client...");
+			strcpy(buff,"exit");
+			write(connfd,buff,strlen(buff));
+			close(connfd);
+			b=0;
+			continue;
+		}
+		else {
+			printf("Client accepted\n");
+			strcpy(buff,"continue");
+			write(connfd,buff,strlen(buff));
+			b=1;
+			bzero(buff,128);
+			if((r = read(connfd, buff, 128)) < 0)
+	                	printf("\nSERVER ERROR: Cannot receive message from client.\n");
+	        	else
+        		{
+        			if(strcmp(buff,"exit")==0){ 
+        				printf("Client exited\n");
+        				close(connfd);
+        				b=0;
+        				continue;
+				}
+				else {
+					FILE *fp3 = fopen("op.txt","w");
+					fclose(fp3);
+					bzero(buff,128);
+					read(connfd,buff,128);
+					printf("\nMessage reciveed %s\n",buff);
+					FILE *fp = fopen("cal.txt","w");
+				        fprintf(fp, "%s\n",buff);
+				        fclose(fp);
+				        printf("\nMessage Written\n");
+				        system("echo quit | bc -q -l cal.txt > op.txt 2>&1");
+				        printf("\nCalculation done\n");
+				        char data[100];
+				        FILE *fp2 = fopen("op.txt","r");
+				        fgets(data,100,fp2);
+				        fclose(fp2);                                                       
+					/*echo back the message received from client*/
+					if((w = write(connfd, data, 100)) < 0)
+						printf("\nSERVER ERROR: Cannot send message to the client.\n");
+					else
+						printf("\nSERVER: Echoed back %s to %s.\n", data, inet_ntoa(cli_addr.sin_addr));
+					printf("Press 1 to shut down server or any other button to continue\n");
+					int ch2;
+					scanf("%d",&ch2);
+					if(ch2==1) {
+						strcpy(buff,"shut");
+						write(connfd,buff,strlen(buff));
+						break;
+					}
+					else {
+						strcpy(buff,"continue");
+						write(connfd,buff,strlen(buff));
+						continue;
+					}
+					bzero(buff,128);
+				}
+			}
+		}
+	} close(listenfd);
+}
