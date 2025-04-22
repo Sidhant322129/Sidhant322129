@@ -1,0 +1,119 @@
+#include<iostream>
+#include<string>
+using namespace std;
+#define M 100
+#define MAX_T 10
+
+struct user{
+    string id;
+    int st;
+    int c;
+    int t[MAX_T];
+    int index;
+};
+
+user u[M];
+int f = 0,r = -1;
+
+void push(user u2){
+    if(r==M-1) return;
+    r++;
+    u[r] = u2;
+}
+
+bool empty(){
+    return f>r;
+}
+
+user pop(){
+    if(empty()){
+        cout<<"Queue is empty!\n";
+        return user();
+    }
+    return u[f++];
+}
+
+void swap(user &a,user &b){
+    user temp = a;
+    a = b;
+    b = temp;
+}
+
+void sort(user users[],int n){
+    for(int i=1;i<n;i++){
+        for(int j=0;j<n-i;j++){
+            if(users[j].st > users[j+1].st){
+                swap(users[j],users[j+1]);
+            }
+        }
+    }
+}
+
+void pc(user originalOrder[],int n){
+    int ct=0;
+    int tw=0;
+    int ts=0;
+    string log1[M*MAX_T];
+    int logIn=0;
+
+    while(!empty()){
+        user u1 = pop();
+        int start = (ct > u1.st) ? ct : u1.st;
+        for(int i=0;i<u1.c;i++){
+            int wait = start - u1.st;
+            tw += wait;
+            ts++;
+            int end = start + u1.t[i];
+            log1[logIn++] = "user Id : "+u1.id+" transaction Id : "+to_string(i+1)+" Start Time: "+to_string(start)+" End Time: "+to_string(end)+" wait time : "+to_string(wait);
+            start = end;
+        }
+        ct = start;
+    }
+
+    for(int i=0;i<logIn;i++){
+        cout<<log1[i]<<endl;
+    }
+
+    if(ts>0){
+        cout<<"TW = "<<tw<<endl;
+        cout<<"TS = "<<ts<<endl;
+        cout<<"Average wait time = "<<(double)tw/ts<<endl;
+    }
+    else{
+        cout<<"No transactions.\n";
+    }
+}
+
+int main(){
+    int n;
+    cout<<"Enter number of users: ";
+    cin>>n;
+
+    user users[M];
+    for(int i=0;i<n;i++){
+        users[i].index = i;
+        cout<<"Enter user id: ";
+        cin>>users[i].id;
+        cout<<"Enter start time: ";
+        cin>>users[i].st;
+        cout<<"Enter number of transactions: ";
+        cin>>users[i].c;
+        cout<<"Enter the transaction times: ";
+        for(int j=0;j<users[i].c;j++){
+            cin>>users[i].t[j];
+        }
+    }
+
+    user sortedUser[M];
+    for(int i=0;i<n;i++){
+        sortedUser[i] = users[i];
+    }
+
+    sort(sortedUser,n);
+    for(int i=0;i<n;i++){
+        push(sortedUser[i]);
+    }
+
+    pc(users,n);
+    return 0;
+}
