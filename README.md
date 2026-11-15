@@ -1,4 +1,9 @@
-<!---
-Sidhant322129/Sidhant322129 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+# Hey, I'm Sidhant👋
+
+## What I work with
+- **Frontend:** React, Vite, React Router, Tailwind CSS, Recharts
+- **Backend:** Node.js, Express, REST APIs, JWT authentication
+- **Database and auth:** Supabase (PostgreSQL, Email OTP, Google OAuth, Storage)
+- **Blockchain:** Solidity, Ethereum Sepolia, Web3.js, IPFS (Pinata)
+- **Tools and deployment:** Git and GitHub
+
