@@ -38,6 +38,10 @@ I'm an Information Technology student at Heritage Institute of Technology, Kolka
   <img src="https://streak-stats.demolab.com?user=Sidhant322129&theme=tokyonight&hide_border=true" height="170" />
 </p>
 
+<p align="center">
+  <img src="koi/koi.gif" width="256" alt="My koi" />
+</p>
+
 ## Contribution Activity
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Sidhant322129&theme=tokyo-night&hide_border=true)
