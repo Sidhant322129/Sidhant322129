@@ -1,10 +1,5 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Sidhant%20Hansda&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20Web3%20Enthusiast&descSize=20&descAlignY=60&animation=fadeIn" width="100%" />
 
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Sidhant322129&style=for-the-badge&color=7c3aed&label=PROFILE+VIEWS" />
-  <img src="https://img.shields.io/github/followers/Sidhant322129?style=for-the-badge&logo=github&color=2ea44f" />
-</p>
-
 ## 👋 About Me
 Hi, I'm **Sidhant Hansda**. When I'm not coding, you'll find me:
 
