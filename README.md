@@ -6,16 +6,13 @@
 </p>
 
 ## 👋 About Me
-I'm an Information Technology student at **Heritage Institute of Technology, Kolkata**. I enjoy building complete web applications, from the database and API layer to the dashboards people actually use, and turning rough ideas into working products.
+Hi, I'm **Sidhant Hansda**. When I'm not coding, you'll find me:
 
-- Building full-stack web applications with role-based access and secure payments
-- Designing clean database schemas and REST APIs
-- Exploring blockchain, smart contracts and decentralized storage
-- Learning by building, breaking and rebuilding
-
-## 🌱 What I'm Working On
-**Oilseed Value Chain**
-A multi-role marketplace connecting farmers, buyers, government officials and admins, with blockchain-backed batch traceability and automatic invoicing.
+- 🎮 Playing games
+- 🎌 Watching anime
+- 🎬 Being a cinephile
+- 🛠️ Building projects
+- ⛓️ Exploring Web3 and AI
 
 ## 🛠️ Tech Stack
 
