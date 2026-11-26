@@ -92,7 +92,7 @@ Hi, I'm **Sidhant Hansda**. When I'm not coding, you'll find me:
   </a>
 </p>
 
-## Contribution Graph
+## 🐍 Contribution Graph
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sidhant322129/Sidhant322129/output/github-snake-dark.svg" />
