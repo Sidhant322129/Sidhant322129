@@ -1,4 +1,4 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=220&section=header&text=Sidhant%20Hansda&fontSize=52&fontColor=ffffff&fontAlignY=38&desc=Full-Stack%20Developer&descSize=20&descAlignY=60&animation=fadeIn" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:020617,50:172554,100:312e81&height=240&section=header&text=Sidhant%20Hansda&fontSize=48&fontColor=F8FAFC&fontAlignY=38&desc=Full-Stack%20Developer%20%7C%20Web3%20%7C%20AI&descSize=19&descAlignY=60&animation=fadeIn" width="100%" />
 
 ## 👋 About Me
 Hi, I'm **Sidhant Hansda**. When I'm not coding, you'll find me:
