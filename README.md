@@ -46,27 +46,27 @@ Hi, I'm **Sidhant Hansda**. When I'm not coding, you'll find me:
   <a href="https://ethereum.org/"><img src="https://cdn.simpleicons.org/ethereum/8C8DFC" width="48" height="48" alt="Ethereum" title="Ethereum" /></a>
   <a href="https://hardhat.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hardhat/hardhat-original.svg" width="48" height="48" alt="Hardhat" title="Hardhat" /></a>
   <a href="https://docs.ethers.org/"><img src="https://cdn.simpleicons.org/ethers/627EEA" width="48" height="48" alt="Ethers.js" title="Ethers.js" /></a>
-  <a href="https://metamask.io/"><img src="https://cdn.jsdelivr.net/npm/@metamask/logo@3.0.2/logo.svg" width="48" height="48" alt="MetaMask" title="MetaMask" /></a>
+  <a href="https://metamask.io/"><img src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg" width="48" height="48" alt="MetaMask" title="MetaMask" /></a>
   <a href="https://www.alchemy.com/"><img src="https://cdn.simpleicons.org/alchemy/363FF9" width="48" height="48" alt="Alchemy" title="Alchemy" /></a>
 </p>
 
 **Authentication & Security**
 
 <p>
-  <a href="https://eips.ethereum.org/EIPS/eip-4361"><img src="https://api.dicebear.com/9.x/initials/svg?seed=SIWE&chars=4&backgroundColor=3c3c3d&radius=20&fontSize=25" width="48" height="48" alt="SIWE" title="Sign-In with Ethereum" /></a>
+  <a href="https://eips.ethereum.org/EIPS/eip-4361"><img src="https://api.dicebear.com/9.x/initials/svg?seed=SIWE&chars=2&backgroundColor=6366f1&radius=20" width="48" height="48" alt="SIWE" title="Sign-In with Ethereum" /></a>
   <a href="https://jwt.io/"><img src="https://cdn.simpleicons.org/jsonwebtokens/FFFFFF" width="48" height="48" alt="JWT" title="JSON Web Token" /></a>
   <a href="https://zod.dev/"><img src="https://cdn.simpleicons.org/zod/3E67B1" width="48" height="48" alt="Zod" title="Zod" /></a>
   <a href="https://helmetjs.github.io/"><img src="https://api.dicebear.com/9.x/initials/svg?seed=Helmet&chars=2&backgroundColor=334155&radius=20" width="48" height="48" alt="Helmet" title="Helmet.js" /></a>
-  <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS"><img src="https://api.dicebear.com/9.x/initials/svg?seed=CORS&chars=4&backgroundColor=009688&radius=20&fontSize=25" width="48" height="48" alt="CORS" title="Cross-Origin Resource Sharing" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS"><img src="https://api.dicebear.com/9.x/initials/svg?seed=CORS&chars=2&backgroundColor=009688&radius=20" width="48" height="48" alt="CORS" title="Cross-Origin Resource Sharing" /></a>
   <a href="https://express-rate-limit.mintlify.app/"><img src="https://api.dicebear.com/9.x/initials/svg?seed=RL&chars=2&backgroundColor=e67e22&radius=20" width="48" height="48" alt="Rate Limiting" title="Rate Limiting" /></a>
-  <a href="https://supabase.com/docs/guides/database/postgres/row-level-security"><img src="https://api.dicebear.com/9.x/initials/svg?seed=RLS&chars=3&backgroundColor=336791&radius=20&fontSize=30" width="48" height="48" alt="RLS" title="Row Level Security" /></a>
+  <a href="https://supabase.com/docs/guides/database/postgres/row-level-security"><img src="https://api.dicebear.com/9.x/initials/svg?seed=RLS&chars=2&backgroundColor=336791&radius=20" width="48" height="48" alt="RLS" title="Row Level Security" /></a>
   <a href="https://github.com/kelektiv/node.bcrypt.js"><img src="https://api.dicebear.com/9.x/initials/svg?seed=BC&chars=2&backgroundColor=4b5563&radius=20" width="48" height="48" alt="Bcrypt" title="Bcrypt" /></a>
 </p>
 
 **APIs & Integrations**
 
 <p>
-  <a href="https://developer.mozilla.org/en-US/docs/Glossary/REST"><img src="https://api.dicebear.com/9.x/initials/svg?seed=REST&chars=4&backgroundColor=009688&radius=20&fontSize=25" width="48" height="48" alt="REST API" title="REST API" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Glossary/REST"><img src="https://api.dicebear.com/9.x/initials/svg?seed=API&chars=2&backgroundColor=009688&radius=20" width="48" height="48" alt="REST API" title="REST API" /></a>
   <a href="https://razorpay.com/docs/"><img src="https://cdn.simpleicons.org/razorpay/3395FF" width="48" height="48" alt="Razorpay" title="Razorpay" /></a>
   <a href="https://cloudinary.com/documentation"><img src="https://cdn.simpleicons.org/cloudinary/3448C5" width="48" height="48" alt="Cloudinary" title="Cloudinary" /></a>
   <a href="https://nodemailer.com/"><img src="https://api.dicebear.com/9.x/initials/svg?seed=NM&chars=2&backgroundColor=22b573&radius=20" width="48" height="48" alt="Nodemailer" title="Nodemailer" /></a>
