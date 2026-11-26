@@ -25,7 +25,9 @@ Hi, I'm **Sidhant Hansda**. When I'm not coding, you'll find me:
 
 **Blockchain & Web3**
 
-![Web3](https://skillicons.dev/icons?i=solidity,ethereum)
+![Solidity](https://skillicons.dev/icons?i=solidity)
+
+![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
 ![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logoColor=black)
 ![Ethers.js](https://img.shields.io/badge/Ethers.js-2535A0?style=for-the-badge&logo=ethereum&logoColor=white)
 ![MetaMask](https://img.shields.io/badge/MetaMask-F6851B?style=for-the-badge&logo=metamask&logoColor=white)
