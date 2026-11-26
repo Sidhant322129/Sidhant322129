@@ -46,7 +46,7 @@ Hi, I'm **Sidhant Hansda**. When I'm not coding, you'll find me:
   <a href="https://ethereum.org/"><img src="https://cdn.simpleicons.org/ethereum/8C8DFC" width="48" height="48" alt="Ethereum" title="Ethereum" /></a>
   <a href="https://hardhat.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hardhat/hardhat-original.svg" width="48" height="48" alt="Hardhat" title="Hardhat" /></a>
   <a href="https://docs.ethers.org/"><img src="https://cdn.simpleicons.org/ethers/627EEA" width="48" height="48" alt="Ethers.js" title="Ethers.js" /></a>
-  <a href="https://metamask.io/"><img src="https://raw.githubusercontent.com/MetaMask/brand-resources/master/SVG/metamask-fox.svg" width="48" height="48" alt="MetaMask" title="MetaMask" /></a>
+  <a href="https://metamask.io/"><img src="https://upload.wikimedia.org/wikipedia/commons/3/36/MetaMask_Fox.svg" width="48" height="48" alt="MetaMask" title="MetaMask" /></a>
   <a href="https://www.alchemy.com/"><img src="https://cdn.simpleicons.org/alchemy/363FF9" width="48" height="48" alt="Alchemy" title="Alchemy" /></a>
 </p>
 
