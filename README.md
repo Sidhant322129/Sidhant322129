@@ -13,47 +13,76 @@ Hi, I'm **Sidhant Hansda**. When I'm not coding, you'll find me:
 
 **Programming Languages**
 
-![Languages](https://skillicons.dev/icons?i=cpp,c,js)
+<p>
+  <a href="https://isocpp.org/"><img src="https://skillicons.dev/icons?i=cpp" width="48" height="48" alt="C++" title="C++" /></a>
+  <a href="https://en.cppreference.com/w/c"><img src="https://skillicons.dev/icons?i=c" width="48" height="48" alt="C" title="C" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" title="JavaScript" /></a>
+</p>
 
 **Frontend**
 
-![Frontend](https://skillicons.dev/icons?i=html,css,js,react,vite,tailwind)
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://skillicons.dev/icons?i=html" width="48" height="48" alt="HTML" title="HTML" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://skillicons.dev/icons?i=css" width="48" height="48" alt="CSS" title="CSS" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://skillicons.dev/icons?i=js" width="48" height="48" alt="JavaScript" title="JavaScript" /></a>
+  <a href="https://react.dev/"><img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" title="React" /></a>
+  <a href="https://vite.dev/"><img src="https://skillicons.dev/icons?i=vite" width="48" height="48" alt="Vite" title="Vite" /></a>
+  <a href="https://tailwindcss.com/"><img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind CSS" title="Tailwind CSS" /></a>
+</p>
 
 **Backend & Database**
 
-![Backend](https://skillicons.dev/icons?i=nodejs,express,supabase,postgres)
+<p>
+  <a href="https://nodejs.org/"><img src="https://skillicons.dev/icons?i=nodejs" width="48" height="48" alt="Node.js" title="Node.js" /></a>
+  <a href="https://expressjs.com/"><img src="https://skillicons.dev/icons?i=express" width="48" height="48" alt="Express.js" title="Express.js" /></a>
+  <a href="https://supabase.com/"><img src="https://skillicons.dev/icons?i=supabase" width="48" height="48" alt="Supabase" title="Supabase" /></a>
+  <a href="https://www.postgresql.org/"><img src="https://skillicons.dev/icons?i=postgres" width="48" height="48" alt="PostgreSQL" title="PostgreSQL" /></a>
+</p>
 
 **Blockchain & Web3**
 
-![Solidity](https://skillicons.dev/icons?i=solidity)
-
-![Ethereum](https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
-![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logoColor=black)
-![Ethers.js](https://img.shields.io/badge/Ethers.js-2535A0?style=for-the-badge&logo=ethereum&logoColor=white)
-![MetaMask](https://img.shields.io/badge/MetaMask-F6851B?style=for-the-badge&logo=metamask&logoColor=white)
-![Alchemy](https://img.shields.io/badge/Alchemy-363FF9?style=for-the-badge&logo=alchemy&logoColor=white)
+<p>
+  <a href="https://soliditylang.org/"><img src="https://skillicons.dev/icons?i=solidity" width="48" height="48" alt="Solidity" title="Solidity" /></a>
+  <a href="https://ethereum.org/"><img src="https://cdn.simpleicons.org/ethereum/8C8DFC" width="48" height="48" alt="Ethereum" title="Ethereum" /></a>
+  <a href="https://hardhat.org/"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/hardhat/hardhat-original.svg" width="48" height="48" alt="Hardhat" title="Hardhat" /></a>
+  <a href="https://docs.ethers.org/"><img src="https://cdn.simpleicons.org/ethers/627EEA" width="48" height="48" alt="Ethers.js" title="Ethers.js" /></a>
+  <a href="https://metamask.io/"><img src="https://cdn.jsdelivr.net/npm/@metamask/logo@3.0.2/logo.svg" width="48" height="48" alt="MetaMask" title="MetaMask" /></a>
+  <a href="https://www.alchemy.com/"><img src="https://cdn.simpleicons.org/alchemy/363FF9" width="48" height="48" alt="Alchemy" title="Alchemy" /></a>
+</p>
 
 **Authentication & Security**
 
-![SIWE](https://img.shields.io/badge/SIWE-3C3C3D?style=for-the-badge&logo=ethereum&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
-![Zod](https://img.shields.io/badge/Zod-3068B7?style=for-the-badge&logo=zod&logoColor=white)
-![Helmet](https://img.shields.io/badge/Helmet-222222?style=for-the-badge)
-![CORS](https://img.shields.io/badge/CORS-009688?style=for-the-badge)
-![Rate Limiting](https://img.shields.io/badge/Rate_Limiting-E67E22?style=for-the-badge)
-![RLS](https://img.shields.io/badge/Row_Level_Security-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Bcrypt](https://img.shields.io/badge/Bcrypt-4B5563?style=for-the-badge)
+<p>
+  <a href="https://eips.ethereum.org/EIPS/eip-4361"><img src="https://api.dicebear.com/9.x/initials/svg?seed=SIWE&chars=4&backgroundColor=3c3c3d&radius=20&fontSize=25" width="48" height="48" alt="SIWE" title="Sign-In with Ethereum" /></a>
+  <a href="https://jwt.io/"><img src="https://cdn.simpleicons.org/jsonwebtokens/FFFFFF" width="48" height="48" alt="JWT" title="JSON Web Token" /></a>
+  <a href="https://zod.dev/"><img src="https://cdn.simpleicons.org/zod/3E67B1" width="48" height="48" alt="Zod" title="Zod" /></a>
+  <a href="https://helmetjs.github.io/"><img src="https://api.dicebear.com/9.x/initials/svg?seed=Helmet&chars=2&backgroundColor=334155&radius=20" width="48" height="48" alt="Helmet" title="Helmet.js" /></a>
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS"><img src="https://api.dicebear.com/9.x/initials/svg?seed=CORS&chars=4&backgroundColor=009688&radius=20&fontSize=25" width="48" height="48" alt="CORS" title="Cross-Origin Resource Sharing" /></a>
+  <a href="https://express-rate-limit.mintlify.app/"><img src="https://api.dicebear.com/9.x/initials/svg?seed=RL&chars=2&backgroundColor=e67e22&radius=20" width="48" height="48" alt="Rate Limiting" title="Rate Limiting" /></a>
+  <a href="https://supabase.com/docs/guides/database/postgres/row-level-security"><img src="https://api.dicebear.com/9.x/initials/svg?seed=RLS&chars=3&backgroundColor=336791&radius=20&fontSize=30" width="48" height="48" alt="RLS" title="Row Level Security" /></a>
+  <a href="https://github.com/kelektiv/node.bcrypt.js"><img src="https://api.dicebear.com/9.x/initials/svg?seed=BC&chars=2&backgroundColor=4b5563&radius=20" width="48" height="48" alt="Bcrypt" title="Bcrypt" /></a>
+</p>
 
 **APIs & Integrations**
 
-![REST API](https://img.shields.io/badge/REST_API-009688?style=for-the-badge)
-![Razorpay](https://img.shields.io/badge/Razorpay-02042B?style=for-the-badge&logo=razorpay&logoColor=white)
-![Cloudinary](https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white)
-![Nodemailer](https://img.shields.io/badge/Nodemailer-22B573?style=for-the-badge)
+<p>
+  <a href="https://developer.mozilla.org/en-US/docs/Glossary/REST"><img src="https://api.dicebear.com/9.x/initials/svg?seed=REST&chars=4&backgroundColor=009688&radius=20&fontSize=25" width="48" height="48" alt="REST API" title="REST API" /></a>
+  <a href="https://razorpay.com/docs/"><img src="https://cdn.simpleicons.org/razorpay/3395FF" width="48" height="48" alt="Razorpay" title="Razorpay" /></a>
+  <a href="https://cloudinary.com/documentation"><img src="https://cdn.simpleicons.org/cloudinary/3448C5" width="48" height="48" alt="Cloudinary" title="Cloudinary" /></a>
+  <a href="https://nodemailer.com/"><img src="https://api.dicebear.com/9.x/initials/svg?seed=NM&chars=2&backgroundColor=22b573&radius=20" width="48" height="48" alt="Nodemailer" title="Nodemailer" /></a>
+</p>
 
 **Cloud & Tools**
 
-![Tools](https://skillicons.dev/icons?i=aws,nginx,git,github,postman,npm,vscode)
+<p>
+  <a href="https://aws.amazon.com/"><img src="https://skillicons.dev/icons?i=aws" width="48" height="48" alt="AWS" title="AWS" /></a>
+  <a href="https://nginx.org/"><img src="https://skillicons.dev/icons?i=nginx" width="48" height="48" alt="Nginx" title="Nginx" /></a>
+  <a href="https://git-scm.com/"><img src="https://skillicons.dev/icons?i=git" width="48" height="48" alt="Git" title="Git" /></a>
+  <a href="https://github.com/"><img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub" title="GitHub" /></a>
+  <a href="https://www.postman.com/"><img src="https://skillicons.dev/icons?i=postman" width="48" height="48" alt="Postman" title="Postman" /></a>
+  <a href="https://www.npmjs.com/"><img src="https://skillicons.dev/icons?i=npm" width="48" height="48" alt="npm" title="npm" /></a>
+  <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" title="VS Code" /></a>
+</p>
 
 ## 📊 GitHub Stats
 
