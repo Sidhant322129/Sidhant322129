@@ -87,10 +87,12 @@ Hi, I'm **Sidhant Hansda**. When I'm not coding, you'll find me:
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=Sidhant322129&theme=tokyonight&hide_border=true" />
+  <a href="https://github.com/Sidhant322129">
+    <img src="https://streak-stats.demolab.com/?user=Sidhant322129&theme=tokyonight&hide_border=true&v=2" alt="GitHub Streak Stats" />
+  </a>
 </p>
 
-## 🐍 Contribution Graph
+## Contribution Graph
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Sidhant322129/Sidhant322129/output/github-snake-dark.svg" />
