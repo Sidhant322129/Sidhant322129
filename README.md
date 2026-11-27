@@ -84,6 +84,13 @@ Hi, I'm **Sidhant Hansda**. When I'm not coding, you'll find me:
   <a href="https://code.visualstudio.com/"><img src="https://skillicons.dev/icons?i=vscode" width="48" height="48" alt="VS Code" title="VS Code" /></a>
 </p>
 
+**Deployment**
+
+<p>
+  <a href="https://vercel.com/docs"><img src="https://skillicons.dev/icons?i=vercel" width="48" height="48" alt="Vercel" title="Vercel" /></a>
+  <a href="https://render.com/docs"><img src="https://cdn.simpleicons.org/render/46E3B7" width="48" height="48" alt="Render" title="Render" /></a>
+</p>
+
 ## 📊 GitHub Stats
 
 <p align="center">
